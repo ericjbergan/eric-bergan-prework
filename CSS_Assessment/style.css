@@ -1,33 +1,34 @@
 .container {
-    margin: 0 5%;
+    margin: 0 15%;
+    text-align: center;
 }
 
 .nav {
     background-color: #818081;
-    text-align: center;
 }
 
 .boxes {
-    margin: 5% 0 25% 0;
-    height: 100%;
+    margin: 5% 0 5% 0;
+    height: 400px;
 }
 
 .left-box {
     background-color: #0300fd;
-    height: 300px;
     width: 50%;
     float: left;
 }
 
 .right-box {
     background-color: #fe0001;
-    height: 300px;
     width: 25%;
     float: right;
 }
 
+span {
+    line-height: 400px;
+}
+
 .footer {
     background-color: #028002;
-    width: 100%;
     margin-top: 100px;
 }

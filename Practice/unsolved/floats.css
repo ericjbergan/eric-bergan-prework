@@ -24,12 +24,21 @@ section {
 }
 
 #left {
+  width: 33.3%;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 #middle {
+  width: 33.3%;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 #right {
+  width: 33.3%;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 #full {
