@@ -1,0 +1,13 @@
+ .container,
+ .jumbotron {
+   background-color: #79b9c6 !important;
+   text-align: center;
+ }
+
+ .jumbotron {
+   margin-top: 30px;
+ }
+ 
+ .quote {
+   color: red !important;
+ }
