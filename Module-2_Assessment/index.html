@@ -1,17 +1,71 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="/Module-2_Assessment/assets/javascript/game.js"></script>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
 
+    <header>
+        <h1>Let's play hangman!</h1>
+        <h4>Never mind the crowd judging your performance</h4>
+    </header>
+
+    <br><br><br>
+
+    <script src="assets/javascript/game.js"></script>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="frame">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">
+                            <img id="graphic" src="assets/images/3.jpg">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="the-end">
+                                <h3><span id="result"></span></h3>
+                                <h3 id="playAgain"><a href="index.html">Click here </a>to play again.</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3 main">
+                            <div class="row">
+                                <div class="output-box1">
+                                    <div class="col-md-12">
+                                        <div style="font-size: 18px; padding-top: 10px;">Pick a letter to start</div>
+                                        <div id="output" class="box-text">
+                                            <div><span id="current"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="output-box2">
+                                    <div class="col-md-12">
+                                        <div id="alpha" class="box-text">
+                                            <div style="font-size: 18px;">Used letters</div>
+                                            <span id="used"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
+<footer>
+
+</footer>
 
 </html>
